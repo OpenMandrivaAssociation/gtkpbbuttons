@@ -1,6 +1,6 @@
 %define name gtkpbbuttons
 %define version 0.6.8
-%define release 1mdk
+%define release %mkrel 1
 
 Name: %{name}
 Summary: GTK display client for pbbuttonsd
