@@ -11,7 +11,6 @@ Source1: gtkpbbuttons.startup
 Patch0: gtkpbbuttons_default_theme.patch
 URL: http://pbbuttons.sourceforge.net/
 Group: System/Configuration/Hardware
-BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Requires: pbbuttonsd >= 0.5.0
 BuildRequires: pbbuttonsd-devel >= 0.6.5
