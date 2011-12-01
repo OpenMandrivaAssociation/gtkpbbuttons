@@ -23,7 +23,7 @@ A visualisation client for pbbuttonsd to display
 messages from the server in nice GTK popup windows.
 
 %prep
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %setup -q -n %{name}-%{version}
 
 %patch0 -p1
@@ -38,7 +38,7 @@ install -c -D -m755 %{SOURCE1} %buildroot%{_sysconfdir}/X11/xinit.d/gtkpbbuttons
 %find_lang %{name}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files -f %{name}.lang
 %defattr(-,root,root,0755)
