@@ -1,0 +1,11 @@
+--- gtkpbbuttons-0.6.5/src/gtkpbbinit.h	2004-12-14 13:15:37.000000000 -0500
++++ gtkpbbuttons-0.6.5-new/src/gtkpbbinit.h	2005-02-27 16:46:36.000000000 -0500
+@@ -32,7 +32,7 @@
+ };
+ 	
+ #define DEFAULT_PIDFILE "/var/run/" PACKAGE ".pid"
+-#define DEFAULT_THEME "Classic"
++#define DEFAULT_THEME "Crystal"
+ 
+ struct init {
+ 	char *themename;		/* name of theme to use */
