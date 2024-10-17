@@ -9,7 +9,7 @@ Release: %{release}
 Source: http://prdownloads.sourceforge.net/pbbuttons/%{name}-%{version}.tar.bz2
 Source1: gtkpbbuttons.startup
 Patch0: gtkpbbuttons_default_theme.patch
-URL: http://pbbuttons.sourceforge.net/
+URL: https://pbbuttons.sourceforge.net/
 Group: System/Configuration/Hardware
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
