@@ -14,6 +14,11 @@ Group: System/Configuration/Hardware
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Requires: pbbuttonsd >= 0.5.0
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pbbuttonsd-devel >= 0.6.5
 BuildRequires: popt-devel libgtk+2-devel libaudiofile-devel
 ExclusiveArch: ppc
